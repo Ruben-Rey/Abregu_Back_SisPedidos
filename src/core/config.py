@@ -1,6 +1,6 @@
 DATABASE_CONFIG = {
     'host': 'localhost',
     'user': 'root',
-    'password': 'Lotus123routerx',
+    'password': 'root',
     'database': 'db_abregu',
 }
