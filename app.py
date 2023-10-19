@@ -8,7 +8,7 @@ origins = [
     "http://localhost:5173",  # Origen de tu aplicación React
 ]
 
-app.include_router(user_router, prefix="/pedidosAll", tags=["pedidosAll"])
+app.include_router(user_router, tags=["pedidosAll"])
 
 
 app.add_middleware(
